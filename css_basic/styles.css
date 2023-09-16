@@ -1,0 +1,31 @@
+/* Apply flexbox to the body and main containers */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    background-color: #353935;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Define the flex properties for the main content and aside */
+article {
+    flex: 2;
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: #023020;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: #FF5733;
+}
+
+.logo {
+	font-size: 40px;
+	margin-right: 10px;
+}

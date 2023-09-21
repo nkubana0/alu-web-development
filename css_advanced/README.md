@@ -1,2 +1,2 @@
-CSS styles to make the HTML Look better
-
+Adding CSS styles to make the webpage look better 
+Trying to make it look like this
